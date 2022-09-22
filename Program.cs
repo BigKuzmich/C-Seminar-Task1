@@ -1,5 +1,7 @@
 ﻿using System;
 
+// Console.WriteLine(" Задача 1 ")
+//
 // Console.WriteLine("Введите число 1");
 // int a= int.Parse(Console.ReadLine());
 // Console.WriteLine("Введите число 2");
@@ -44,16 +46,30 @@
 //     }
 // }
 
-Console.WriteLine(" Задача 3");
+// Console.WriteLine(" Задача 3");
 
-Console.WriteLine(" Введите число");
-int a = int.Parse(Console.ReadLine());
-if(a % 2 == 0)
-{
-    Console.WriteLine("Число " + a + " Четное");
-}
+// Console.WriteLine(" Введите число");
+// int a = int.Parse(Console.ReadLine());
+// if(a % 2 == 0)
+// {
+//     Console.WriteLine("Число " + a + " Четное");
+// }
 
-else
+// else
+// {
+//     Console.WriteLine("Число " + a + " Не четное");
+// }
+
+Console.WriteLine("Задача 4");
+
+Console.WriteLine("Укажите диапазон");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Укажите число кратности");
+int b = Convert.ToInt32(Console.ReadLine());
+for(int i = 0; i <= a; i++ )
 {
-    Console.WriteLine("Число " + a + " Не четное");
+    if ( i % b == 0 )
+    {
+        Console.WriteLine("{0} ", i );
+    }
 }
