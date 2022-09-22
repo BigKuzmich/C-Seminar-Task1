@@ -1,4 +1,2 @@
-using System; //Не обращать внимание
-
-int numbers = 12;
-System.Console.Writeline(numbers * 10 + 200);
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
