@@ -43,3 +43,17 @@
 //         }
 //     }
 // }
+
+Console.WriteLine(" Задача 3");
+
+Console.WriteLine(" Введите число");
+int a = int.Parse(Console.ReadLine());
+if(a % 2 == 0)
+{
+    Console.WriteLine("Число " + a + " Четное");
+}
+
+else
+{
+    Console.WriteLine("Число " + a + " Не четное");
+}
