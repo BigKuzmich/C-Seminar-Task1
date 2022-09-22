@@ -19,6 +19,7 @@
 //     Console.WriteLine("Значения ровны");
 // }
 
+// Задача 2
 // internal class Program
 // {
 //     private static void Main(string[] args)
@@ -46,6 +47,7 @@
 //     }
 // }
 
+// Задача 3
 // Console.WriteLine(" Задача 3");
 
 // Console.WriteLine(" Введите число");
@@ -60,6 +62,7 @@
 //     Console.WriteLine("Число " + a + " Не четное");
 // }
 
+// Задача 4
 Console.WriteLine("Задача 4");
 
 Console.WriteLine("Укажите диапазон");
